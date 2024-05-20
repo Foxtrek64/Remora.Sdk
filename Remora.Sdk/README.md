@@ -53,7 +53,7 @@ The following properties are defined by the SDK.
 | ExecutableFrameworks* | net7.0        | Yes         |
 | TargetFramework       |               | Yes         |
 | TargetFrameworks      | (varies)      | Yes         |
-| TargetNetStandard     | true          | Yes         |
+| TargetNetStandard*    | true          | Yes         |
 
 If `TargetNetStandard` is `true`, `netstandard2.1` will be included as a target when building libraries.
 Set the property to `false` if this is undesirable.
