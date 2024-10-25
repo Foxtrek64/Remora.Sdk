@@ -1,14 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remora.Sdk", "Remora.Sdk\Remora.Sdk.msbuildproj", "{060D4556-DD64-453B-B79E-D602E9AA87F5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remora.Tests.Sdk", "Remora.Tests.Sdk\Remora.Tests.Sdk.msbuildproj", "{10815AC2-0F9B-4C06-9EA0-317A766B2A5F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "metadata", "metadata", "{C24DCE64-A955-4039-B930-93C219188BF7}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		Directory.Build.props = Directory.Build.props
 		Directory.Build.targets = Directory.Build.targets
-		.gitignore = .gitignore
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -76,6 +79,9 @@ Global
 		{9A20B528-1711-4B2A-B6F1-BD3DD235B38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A20B528-1711-4B2A-B6F1-BD3DD235B38C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{41D83C63-CC5C-46BF-89C1-859C6064B5E4} = {5B608803-1FBF-46B5-8AC5-30C5E0C6D7EB}
 		{7A29BD0A-C96F-4535-BBB6-0F847CB73F07} = {5B608803-1FBF-46B5-8AC5-30C5E0C6D7EB}
@@ -85,5 +91,8 @@ Global
 		{60E4411F-6C14-46A2-980E-F8A4320B7D13} = {5B608803-1FBF-46B5-8AC5-30C5E0C6D7EB}
 		{62BAFFA6-7333-4AB3-AF0C-58C234F3506D} = {5B608803-1FBF-46B5-8AC5-30C5E0C6D7EB}
 		{9A20B528-1711-4B2A-B6F1-BD3DD235B38C} = {5B608803-1FBF-46B5-8AC5-30C5E0C6D7EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13E39F16-2891-4C3E-BE89-EE325BC63544}
 	EndGlobalSection
 EndGlobal
