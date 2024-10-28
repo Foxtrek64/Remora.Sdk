@@ -11,10 +11,10 @@ For more information, refer to the [Remora.Sdk Readme](../Remora.Sdk/Readme.md).
 
 ```xml
 <Project Sdk="Remora.Sdk.Razor/1.0.0">
-	<PropertyGroup>
-		<LegalAuthor>John Doe</LegalAuthor>
-		<LegalEmail>john@doe.org</LegalEmail>
-	</PropertyGroup>
+  <PropertyGroup>
+    <LegalAuthor>John Doe</LegalAuthor>
+    <LegalEmail>john@doe.org</LegalEmail>
+  </PropertyGroup>
 </Project>
 ```
 
