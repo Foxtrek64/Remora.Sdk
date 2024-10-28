@@ -10,7 +10,7 @@ For more information, refer to the [Remora.Sdk Readme](../Remora.Sdk/Readme.md).
 ## Usage
 
 ```xml
-<Project Sdk="Remora.Sdk.Web/1.0.0">
+<Project Sdk="Remora.Sdk.Razor/1.0.0">
 	<PropertyGroup>
 		<LegalAuthor>John Doe</LegalAuthor>
 		<LegalEmail>john@doe.org</LegalEmail>
